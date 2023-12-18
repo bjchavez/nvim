@@ -10,8 +10,8 @@
     <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
   </p>
   <p>
-    <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/preview/preview.png"/>
-    <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/preview/preview-02.png"/>
+    <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview01.png"/>
+    <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview02.png"/>
   </p>
 </div>
 
