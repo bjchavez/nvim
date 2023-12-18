@@ -7,7 +7,6 @@ local plugins = {
   require "plugins.lualine",
   require "plugins.nvim-tree",
   require "plugins.web-devicons",
-  require "plugins.nui",
   require "plugins.nvterm",
   require "plugins.telescope",
   require "plugins.treesitter",
