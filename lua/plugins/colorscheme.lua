@@ -21,7 +21,28 @@ return {
         no_underline = true
       })
 
-      vim.cmd[[colorscheme catppuccin-mocha]]
+    end
+  },
+  {
+    "navarasu/onedark.nvim",
+    name = "one-dark",
+    config = function ()
+      require("onedark").setup({
+        style = "deep",
+        code_style = {
+          comments = "italic",
+          functions = "italic",
+        },
+        lualine = {
+          transparent = true
+        },
+        diagnostics = {
+          darker = false,
+          background = false,
+          undercurl = false
+        }
+      })
+      require("onedark").load()
     end
   }
 }
