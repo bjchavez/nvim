@@ -17,7 +17,7 @@
 
 ## Current Updates
 
-- **Current theme:** Catppuccin
+- **Current theme:** [Catppuccin-mocha](https://github.com/catppuccin/nvim)
 - **Current font:** JetBrainsMono Nerd Font
 
 ## Requirements
@@ -29,7 +29,7 @@
 
 - ### Clone this repository
 ```
-git clone https://github.com/bjchavez/dot-nvim.git ~/.config/nvim
+git clone https://github.com/bjchavez/nvim.git ~/.config/nvim
 ```
 - ### Delete preview and .git folders
 ```
@@ -43,7 +43,6 @@ nvim
 
 ## Plugins List
 
-- [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [telescope](https://github.com/nvim-telescope/telescope.nvim)
 - [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
@@ -53,6 +52,9 @@ nvim
 - [nvterm](https://github.com/NvChad/nvterm)
 - [autopairs](https://github.com/windwp/nvim-autopairs)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
+- [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
+- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 
 ## Main Folders
 ```
@@ -68,21 +70,20 @@ nvim
 
 ```
 ├── plugins
-│   ├── coding.lua
-│   │   ├── mini.nvim
-│   │   ├── gitsigins.nvim
-│   │   ├── indent-blankline.nvim
-│   │   └── nvim-autopairs
-│   ├── colorscheme.lua
-│   │   ├── catppuccin/nvim
-│   │   └── tokyonight.nvim
-│   ├── editor.lua
-│   │   ├── lualine.nvim
-│   │   ├── nvim-tree.lua
-│   │   ├── nvim-web-devicons
-│   │   └── nvterm
 │   ├── telescope.lua
 │   ├── treesitter.lua
+│   ├── lsp.lua
+│   ├── lualine.lua
+│   ├── mini.lua
+│   ├── nvim-tree.lua
+│   ├── nvtem.lua
+│   ├── autopairs.lua
+│   ├── colorscheme.lua
+│   │   └── catppuccin/nvim
+│   ├── gitsigns.lua
+│   ├── markdown-preview.lua
+│   ├── indent.lua
+│   ├── web-devicons.lua
 │   └── lsp.lua
 └── ...
 ```
