@@ -1,7 +1,5 @@
 <div align="center">
   <h1>My Neovim Setup</h1>
-  <p align="left">I love Neovim and its environment. For this reason I share my Neovim configuration, I hope this helps you.
-    You can see the documentation in Spanish <a href="/docs/README_es.md">here.</a></p>
   <p align="center">
     <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white"/>
     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
