@@ -7,13 +7,12 @@ opt.number = true
 opt.relativenumber = true
 opt.termguicolors = true
 opt.cmdheight= 0
+opt.signcolumn = "yes"
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
 
 -- Identation
 opt.expandtab = true
-opt.softtabstop = 2
-opt.shiftwidth = 4
 opt.smartindent = true
 opt.wrap = false
 opt.showmatch = true
