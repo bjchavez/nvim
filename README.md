@@ -17,7 +17,7 @@
 
 ## Current Updates
 
-- **Current theme:** [Catppuccin-mocha](https://github.com/catppuccin/nvim)
+- **Current theme:** [Onedark](https://github.com/navarasu/onedark.nvim)
 - **Current font:** JetBrainsMono Nerd Font
 
 ## Requirements
@@ -79,6 +79,7 @@ nvim
 │   ├── nvtem.lua
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
+│   │   ├── onedark.nvim
 │   │   └── catppuccin/nvim
 │   ├── gitsigns.lua
 │   ├── markdown-preview.lua
@@ -90,13 +91,13 @@ nvim
 
 ## FAQ
 
-**```Why does my configuration look different?```**
+- **Why does my configuration look different?**
 
-I update my neovim configuration daily. I change the themes and keymaps, but I will do my best to write a good documentation.
+  I update my neovim configuration daily. I change the themes and keymaps, but I will do my best to write a good documentation.
 
-**```Can I copy code for personal use? ```**
+- **Can I copy code for personal use?**
 
-Yes of course. That's the goal. Luck 😉
+  Yes of course. That's the goal. Luck 😉
 
 ## License
 
