@@ -3,7 +3,7 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
-    lazy = false,
+    lazy = true,
     config = function ()
       require("catppuccin").setup({
         integrations = {
@@ -25,7 +25,9 @@ return {
   },
   {
     "navarasu/onedark.nvim",
-    name = "one-dark",
+    lazy = false,
+    priority = 1000,
+    name = "onedark",
     config = function ()
       require("onedark").setup({
         style = "deep",
