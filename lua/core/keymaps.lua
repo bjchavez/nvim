@@ -19,8 +19,8 @@ map("n", "<leader>v", "<cmd>vsplit<cr>", opts)
 map("n", "<leader>h", "<cmd>split<cr>", opts)
 
 -- Buffers
-map("n", "<S-Left>", "<cmd>bprevious<cr>", { desc = "Prev buffer" })
-map("n", "<S-Right>", "<cmd>bnext<cr>", { desc = "Next buffer" })
+map("n", "<C-,>", "<cmd>bprevious<cr>", { desc = "Previous buffer" })
+map("n", "<C-.>", "<cmd>bnext<cr>", { desc = "Next buffer" })
 
 -- Clear Search
 map( { "i", "n" }, "<esc>", "<cmd>noh<cr><esc>", { desc = "Clear Search" })
