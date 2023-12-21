@@ -33,7 +33,7 @@ return {
         style = "deep",
         code_style = {
           comments = "italic",
-          functions = "italic",
+          keyword = "italic"
         },
         lualine = {
           transparent = true
