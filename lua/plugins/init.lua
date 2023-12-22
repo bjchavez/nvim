@@ -5,7 +5,6 @@ local plugins = {
   require "plugins.indent",
   require "plugins.autopairs",
   require "plugins.lualine",
-  require "plugins.nvim-tree",
   require "plugins.web-devicons",
   require "plugins.nvterm",
   require "plugins.telescope",
