@@ -93,7 +93,7 @@ nvim
 
 > **IMPORTANT**: the `space-bar` remains as the `<leader>` key.
 
-**`SOME VIM MODES USED`**: **`[N]ORMAL`** - **`[V]ISUAL`** - **`[I]NSERT`**
+**`SOME VIM MODES USED`**: **`[N]ORMAL`** - **`[V]ISUAL`** - **`[I]NSERT`** - **`[T]ERMINAL`**
 
 ### General
 
@@ -116,13 +116,29 @@ nvim
 
 ### Telescope
 
-| Mode      | Keymap           | Decription                           |
+| Mode      | Keymap           | Description                          |
 | :----:    | :-----:          | ----------------------------------   |
 | N         | `leader` + `ff`  | Find files                           |
 | N         | `leader` + `bf`  | Show buffers                         |
 | N         | `leader` + `gs`  | Show git status                      |
 | N         | `leader` + `gc`  | Show git commits                     |
 | N         | `leader` + `t`   | Telescope                            |
+
+### Telescope File Browser
+
+| Mode      | Keymap           | Description                          |
+| :----:    | :-----:          | ----------------------------------   |
+| N         | `c`              | Create file / folder                 |
+| N         | `r`              | Rename file / folder                 |
+| N         | `m`              | Move file / folder                   |
+| N         | `y`              | Copy file / folder                   |
+| N         | `d`              | Delete file / folder                 |
+| N         | `o`              | Open file / browser                  |
+| N         | `g`              | Go to parent dir                     |
+| N         | `e`              | Go to home dir                       |
+| N         | `w`              | Go to current working dir            |
+| N         | `t`              | Change current workking dir          |
+| N         | `s`              | Toggle all                           |
 
 ### Nvterm
 
