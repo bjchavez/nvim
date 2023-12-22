@@ -98,7 +98,7 @@ nvim
 ### General
 
 | Mode      | Keymap           | Description                          |
-| :----:    | :----:           | ----------                           |
+| :----:    | :----:           | ----------------------------------   |
 | N - I - V | `Ctrl` + `s`     | Save file                            |
 | N         | `Ctrl` + `q`     | Quit                                 |
 | N         | `Ctrl` + `x`     | Quit and throw away unsave changes   |
@@ -113,6 +113,46 @@ nvim
 | N         | `Ctrl` + `Down`  | Decrease window height               |
 | N         | `Ctrl` + `Left`  | Increase window width                |
 | N         | `Ctrl` + `Right` | Decrease window width                |
+
+### Telescope
+
+| Mode      | Keymap           | Decription                           |
+| :----:    | :-----:          | ----------------------------------   |
+| N         | `leader` + `ff`  | Find files                           |
+| N         | `leader` + `bf`  | Show buffers                         |
+| N         | `leader` + `gs`  | Show git status                      |
+| N         | `leader` + `gc`  | Show git commits                     |
+| N         | `leader` + `t`   | Telescope                            |
+
+### Nvterm
+
+| Mode      | Keymaps          | Description                          |
+| :----:    | :------:         | ----------------------------------   |
+| N         | `Alt` + `i`      | Show terminal                        |
+| T         | `Alt` + `t`      | Hide terminal                        |
+
+### NvimTree
+
+| Mode      | Keymaps          | Description                          |
+| :----:    | :------:         | ----------------------------------   |
+| N         | `leader` + `.`   | Show NvimTree                        |
+| N         | `leader` + `,`   | Hide NvimTree                        |
+
+### Markdown Preview
+
+| Mode      | Keymaps          | Description                          |
+| :----:    | :------:         | ----------------------------------   |
+| N         | `leader` + `mp`  | Show markdown preview window         |
+| N         | `leader` + `ms`  | Close markdown preview window        |
+
+### LSP
+
+| Mode      | Keymaps          | Description                          |
+| :----:    | :------:         | ----------------------------------   |
+| N         | `gd`             | Go to definition                     |
+| N         | `gh`             | Show float definition                |
+| N         | `leader` + `n`   | Go to next diagnostic                |
+| N         | `leader` + `m`   | Go to previous diagnostic            |
 
 ## FAQ
 
