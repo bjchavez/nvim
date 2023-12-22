@@ -16,10 +16,6 @@ local terminal = require("nvterm.terminal")
 map("n", "<A-i>", function () terminal.toggle('vertical') end, opts)
 map("t", "<A-i>", function () terminal.toggle('vertical') end, opts)
 
--- NvimTree
-map("n", "<leader>.", "<cmd>NvimTreeClose<cr>", opts, { desc = "Close NvimTree" })
-map("n", "<leader>,", "<cmd>NvimTreeOpen<cr>", opts, { desc = "Open NvimTree" })
-
 -- Markdown Preview
 map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", opts, { desc = "Start Markdown Preview" })
 map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", opts, { desc = "Stop Markdown Preview" })
