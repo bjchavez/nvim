@@ -53,6 +53,7 @@ nvim
 - [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- [styler](https://github.com/folke/styler.nvim)
 
 ## Main folders
 ```
@@ -83,6 +84,7 @@ nvim
 │   ├── markdown-preview.lua
 │   ├── indent.lua
 │   ├── web-devicons.lua
+│   ├── styles.lua
 │   └── lsp.lua
 └── ...
 ```
