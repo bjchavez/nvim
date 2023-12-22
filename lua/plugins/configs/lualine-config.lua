@@ -6,7 +6,7 @@ local config = {
     theme = "onedark",
     component_separators = { left = "", right = "" },
     section_separators = theme.separators.default,
-    disabled_filetypes = { "NvimTree", "Lazy", "Mason", "Terminal" }
+    disabled_filetypes = { "Lazy", "Mason", "Terminal" }
   },
   sections = {
     lualine_a = {
