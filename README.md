@@ -16,7 +16,7 @@
 ## Current updates
 
 - **Current theme:** [Onedark-Deep](https://github.com/navarasu/onedark.nvim)
-- **Current font:** [JetBrainsMono Nerd Font](https://www.programmingfonts.org/#jetbrainsmono)
+- **Current font:** [UbuntuMono Nerd Font](https://www.programmingfonts.org/#ubuntu)
 
 ## Requirements
 
