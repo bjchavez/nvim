@@ -3,12 +3,13 @@ local map = vim.keymap.set
 vim.g.mapleader = " "
 
 -- Telescope
-local builtin = require("telescope.builtin")
-map("n", "<leader>ff", builtin.find_files, { desc = "Find files" })
-map("n", "<leader>bf", builtin.buffers, { desc = "Buffers" })
-map("n", "<leader>gs", builtin.git_status, { desc = "Git Status" })
-map("n", "<leader>gc", builtin.git_commits, { desc = "Git Commits" })
-map("n", "<leader>t", "<cmd>:Telescope<cr>")
+local telescope = require("telescope.builtin")
+map("n", "<leader>ff", telescope.find_files, { desc = "Find files" })
+map("n", "<leader>bf", telescope.buffers, { desc = "Buffers" })
+map("n", "<leader>gs", telescope.git_status, { desc = "Git Status" })
+map("n", "<leader>gc", telescope.git_commits, { desc = "Git Commits" })
+map("n", "<leader>t", "<cmd>Telescope<cr>")
+map("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts)
 
 -- NvTerm
 local terminal = require("nvterm.terminal")
