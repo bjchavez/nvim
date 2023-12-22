@@ -45,7 +45,7 @@ local config = {
       {
         "progress",
         padding = { left = 1, right = 1 },
-        icon = { "󰦗" }
+        icon = { "" }
       }
     }
   }
