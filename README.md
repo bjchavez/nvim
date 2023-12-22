@@ -46,7 +46,6 @@ nvim
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [mini](https://github.com/echasnovski/mini.nvim)
-- [nvimtree](https://github.com/nvim-tree/nvim-tree.lua)
 - [nvterm](https://github.com/NvChad/nvterm)
 - [autopairs](https://github.com/windwp/nvim-autopairs)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
@@ -54,6 +53,7 @@ nvim
 - [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - [styler](https://github.com/folke/styler.nvim)
+- [telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 
 ## Main folders
 ```
@@ -74,7 +74,6 @@ nvim
 │   ├── lsp.lua
 │   ├── lualine.lua
 │   ├── mini.lua
-│   ├── nvim-tree.lua
 │   ├── nvtem.lua
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
@@ -85,6 +84,7 @@ nvim
 │   ├── indent.lua
 │   ├── web-devicons.lua
 │   ├── styles.lua
+│   ├── telescope-file-browser.lua
 │   └── lsp.lua
 └── ...
 ```
@@ -130,13 +130,6 @@ nvim
 | :----:    | :------:         | ----------------------------------   |
 | N         | `Alt` + `i`      | Show terminal                        |
 | T         | `Alt` + `t`      | Hide terminal                        |
-
-### NvimTree
-
-| Mode      | Keymaps          | Description                          |
-| :----:    | :------:         | ----------------------------------   |
-| N         | `leader` + `.`   | Show NvimTree                        |
-| N         | `leader` + `,`   | Hide NvimTree                        |
 
 ### Markdown Preview
 
