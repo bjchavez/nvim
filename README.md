@@ -15,7 +15,7 @@
 
 ## Current updates
 
-- **Current theme:** [Catppuccin-mocha](https://github.com/catppuccin/nvim)
+- **Current theme:** [Tokyonight-storm](https://github.com/folke/tokyonight.nvim)
 - **Current font:** [UbuntuMono Nerd Font](https://www.programmingfonts.org/#ubuntu)
 
 ## Requirements
@@ -77,6 +77,7 @@ nvim
 │   ├── nvtem.lua
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
+│   │   ├── tokyonight.nvim
 │   │   └── catppuccin/nvim
 │   ├── gitsigns.lua
 │   ├── markdown-preview.lua
