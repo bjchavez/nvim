@@ -15,7 +15,7 @@
 
 ## Current updates
 
-- **Current theme:** [Onedark-Deep](https://github.com/navarasu/onedark.nvim)
+- **Current theme:** [Catppuccin-mocha](https://github.com/catppuccin/nvim)
 - **Current font:** [UbuntuMono Nerd Font](https://www.programmingfonts.org/#ubuntu)
 
 ## Requirements
@@ -77,7 +77,6 @@ nvim
 │   ├── nvtem.lua
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
-│   │   ├── onedark.nvim
 │   │   └── catppuccin/nvim
 │   ├── gitsigns.lua
 │   ├── markdown-preview.lua
