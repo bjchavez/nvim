@@ -1,33 +1,42 @@
-local catppuccin = require("plugins.utils.colors").mocha
+local colors = {
+  font = "#282A36",
+  purple = "#BD93F9",
+  bg_1 = "#44475A",
+  base = "#1e1e2e",
+  green = "#50FA7B",
+  orange = "#FFB86C",
+  pink = "#FF79C6",
+  text = "#F8F8F2"
+}
 
 local lualine_utils = {}
 
   lualine_utils.catppuccin = {
     normal = {
-      a = { fg = catppuccin.base, bg = catppuccin.lavender },
-      b = { fg = catppuccin.lavender, bg = catppuccin.surface1 },
-      c = { fg = catppuccin.base, bg = catppuccin.base },
-      z = { fg = catppuccin.base, bg = catppuccin.lavender }
+      a = { fg = colors.font, bg = colors.purple },
+      b = { fg = colors.purple, bg = colors.bg_1 },
+      c = { fg = colors.base, bg = colors.base },
+      z = { fg = colors.font, bg = colors.purple }
     },
     insert = {
-      a = { fg = catppuccin.base, bg = catppuccin.green },
-      b = { fg = catppuccin.green, bg = catppuccin.surface1 },
-      z = { fg = catppuccin.base, bg = catppuccin.green }
+      a = { fg = colors.font, bg = colors.green },
+      b = { fg = colors.green, bg = colors.bg_1 },
+      z = { fg = colors.font, bg = colors.green }
     },
     visual = {
-      a = { fg = catppuccin.base, bg = catppuccin.yellow },
-      b = { fg = catppuccin.yellow, bg = catppuccin.surface1 },
-      z = { fg = catppuccin.base, bg = catppuccin.yellow }
+      a = { fg = colors.font, bg = colors.orange },
+      b = { fg = colors.orange, bg = colors.bg_1 },
+      z = { fg = colors.font, bg = colors.orange }
     },
     replace = {
-      a = { fg = catppuccin.base, bg = catppuccin.maroon },
-      b = { fg = catppuccin.maroon, bg = catppuccin.surface1 },
-      z = { fg = catppuccin.base, bg = catppuccin.maroon }
+      a = { fg = colors.font, bg = colors.pink },
+      b = { fg = colors.pink, bg = colors.bg_1 },
+      z = { fg = colors.font, bg = colors.pink }
     },
     inactive = {
-      a = { fg = catppuccin.text, bg = catppuccin.base },
-      b = { fg = catppuccin.text, bg = catppuccin.base },
-      c = { fg = catppuccin.base, bg = catppuccin.base },
+      a = { fg = colors.text, bg = colors.base },
+      b = { fg = colors.text, bg = colors.base },
+      c = { fg = colors.base, bg = colors.base },
     },
   }
 
