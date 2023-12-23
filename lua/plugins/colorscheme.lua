@@ -3,9 +3,14 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     priority = 1000,
-    lazy = true,
+    lazy = false,
     config = function ()
       require("catppuccin").setup({
+        flavour = "mocha",
+        styles = {
+          comments = { "italic" },
+          types = { "italic" }
+        },
         integrations = {
           gitsigns = true,
           treesitter = true,
@@ -20,31 +25,7 @@ return {
         },
         no_underline = true
       })
-
-    end
-  },
-  {
-    "navarasu/onedark.nvim",
-    lazy = false,
-    priority = 1000,
-    name = "onedark",
-    config = function ()
-      require("onedark").setup({
-        style = "deep",
-        code_style = {
-          comments = "italic",
-          keyword = "italic"
-        },
-        lualine = {
-          transparent = true
-        },
-        diagnostics = {
-          darker = false,
-          background = false,
-          undercurl = false
-        }
-      })
-      require("onedark").load()
+      vim.cmd[[colorscheme catppuccin]]
     end
   }
 }
