@@ -123,6 +123,7 @@ nvim
 | N         | `leader` + `gs`  | Show git status                      |
 | N         | `leader` + `gc`  | Show git commits                     |
 | N         | `leader` + `t`   | Telescope                            |
+| N         | `leader` + `fg`  | Show help tags                       |
 
 ### Telescope File Browser
 
