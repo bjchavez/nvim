@@ -6,6 +6,7 @@ vim.g.mapleader = " "
 local telescope = require("telescope.builtin")
 map("n", "<leader>ff", telescope.find_files, { desc = "Find files" })
 map("n", "<leader>bf", telescope.buffers, { desc = "Buffers" })
+map("n", "<leader>fg", telescope.help_tags, { desc = "Help Tags" })
 map("n", "<leader>gs", telescope.git_status, { desc = "Git Status" })
 map("n", "<leader>gc", telescope.git_commits, { desc = "Git Commits" })
 map("n", "<leader>t", "<cmd>Telescope<cr>")
