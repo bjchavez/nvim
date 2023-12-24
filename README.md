@@ -16,7 +16,7 @@
 ## Current updates
 
 - **Current theme:** [Tokyonight-storm](https://github.com/folke/tokyonight.nvim)
-- **Current font:** [UbuntuMono Nerd Font](https://www.programmingfonts.org/#ubuntu)
+- **Current font:** [CaskaydiaCove Nerd Font](https://www.programmingfonts.org/#cascadia-code)
 
 ## Requirements
 
