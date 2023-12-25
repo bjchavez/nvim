@@ -1,3 +1,5 @@
+local theme = require "plugins.configs.colors-config".color_scheme
+
 local plugins = {
   require "plugins.colorscheme",
   require "plugins.mini",
@@ -17,4 +19,4 @@ local plugins = {
 }
 
 require("lazy").setup(plugins)
-
+theme()
