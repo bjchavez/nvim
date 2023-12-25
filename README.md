@@ -15,7 +15,7 @@
 
 ## Current updates
 
-- **Current theme:** [Tokyonight-storm](https://github.com/folke/tokyonight.nvim)
+- **Current theme:** [Dracula](https://github.com/dracula/vim)
 - **Current font:** [CaskaydiaCove Nerd Font](https://www.programmingfonts.org/#cascadia-code)
 
 ## Requirements
@@ -58,6 +58,7 @@ nvim
 ## Main folders
 ```
 ├── lua
+│   ├── neto
 │   ├── core
 │   └── plugins
 │       ├── configs
@@ -78,7 +79,7 @@ nvim
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
 │   │   ├── tokyonight.nvim
-│   │   └── catppuccin/nvim
+│   │   └── dracula/vim
 │   ├── gitsigns.lua
 │   ├── markdown-preview.lua
 │   ├── indent.lua
