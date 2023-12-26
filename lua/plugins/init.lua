@@ -19,4 +19,4 @@ local plugins = {
 }
 
 require("lazy").setup(plugins)
-theme()
+theme("duskfox")
