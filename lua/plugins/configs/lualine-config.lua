@@ -2,9 +2,9 @@ local theme = require "plugins.utils.lualine-theme"
 
 local config = {
   options = {
-    theme = theme.dracula(),
+    theme = "duskfox",
     component_separators = { left = "", right = "" },
-    section_separators = theme.separators.default,
+    section_separators = theme.separators.block,
     disabled_filetypes = { "Lazy", "Mason", "Terminal" }
   },
   sections = {
