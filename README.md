@@ -15,7 +15,7 @@
 
 ## Current updates
 
-- **Current theme:** [Dracula](https://github.com/dracula/vim)
+- **Current theme:** [Duskfox](https://github.com/EdenEast/nightfox.nvim)
 - **Current font:** [CaskaydiaCove Nerd Font](https://www.programmingfonts.org/#cascadia-code)
 
 ## Requirements
@@ -79,7 +79,7 @@ nvim
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
 │   │   ├── tokyonight.nvim
-│   │   └── dracula/vim
+│   │   └── nightfox.nvim
 │   ├── gitsigns.lua
 │   ├── markdown-preview.lua
 │   ├── indent.lua
