@@ -54,6 +54,7 @@ nvim
 - [web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - [styler](https://github.com/folke/styler.nvim)
 - [telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)
+- [neodev](https://github.com/folke/neodev.nvim)
 
 ## Main folders
 ```
@@ -86,6 +87,7 @@ nvim
 │   ├── web-devicons.lua
 │   ├── styles.lua
 │   ├── telescope-file-browser.lua
+│   ├── neodev.nvim
 │   └── lsp.lua
 └── ...
 ```
