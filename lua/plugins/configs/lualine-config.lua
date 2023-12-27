@@ -4,7 +4,7 @@ local config = {
   options = {
     theme = "duskfox",
     component_separators = { left = "", right = "" },
-    section_separators = theme.separators.block,
+    section_separators = theme.separators.arrow,
     disabled_filetypes = { "Lazy", "Mason", "Terminal" }
   },
   sections = {
@@ -17,11 +17,6 @@ local config = {
     },
     lualine_b = {
       {
-        "filetype",
-        icon_only = true,
-        padding = { right = 0, left = 1 }
-      },
-      {
         "filename",
       }
     },
@@ -33,7 +28,12 @@ local config = {
         symbols = { error = " ", warn = " ", info = " ", hint = "⚑ " },
       }
     },
-    lualine_x = {},
+    lualine_x = {
+      {
+        "filetype",
+        padding = { right = 1, left = 1 }
+      }
+    },
     lualine_y = {
       {
         "branch",
@@ -42,9 +42,8 @@ local config = {
     },
     lualine_z = {
       {
-        "progress",
-        padding = { left = 1, right = 1 },
-        icon = { "" }
+        "location",
+        padding = { left = 1, right = 1 }
       }
     }
   }
