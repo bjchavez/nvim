@@ -3,8 +3,8 @@ return {
   config = function()
     require("styler").setup({
       themes = {
-        -- markdown = { colorscheme = "catppuccin-mocha" },
-        -- help = { colorscheme = "catppuccin-mocha", background = "dark" },
+        -- Change the colorscheme of the formats
+        -- markdown = { colorscheme = "colorscheme name" }
       },
     })
   end
