@@ -15,7 +15,8 @@ local plugins = {
   require "plugins.markdown-preview",
   require "plugins.styler",
   require "plugins.todo",
-  require "plugins.telescope-file-browser"
+  require "plugins.telescope-file-browser",
+  require "plugins.neodev"
 }
 
 require("lazy").setup(plugins)
