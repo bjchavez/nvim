@@ -125,8 +125,12 @@ nvim
 | N         | `leader` + `bf`  | Show buffers                         |
 | N         | `leader` + `gs`  | Show git status                      |
 | N         | `leader` + `gc`  | Show git commits                     |
+| N         | `leader` + `km`  | Show keymaps                         |
 | N         | `leader` + `t`   | Telescope                            |
 | N         | `leader` + `fg`  | Show help tags                       |
+| N         | `leader` + `v`   | Go to file selection as a vsplit     |
+| N         | `Ctrl` + `down`  | Scroll down in preview window        |
+| N         | `Ctrl` + `up`    | Scroll up in preview window          |
 
 ### Telescope File Browser
 
@@ -166,16 +170,6 @@ nvim
 | N         | `gh`             | Show float definition                |
 | N         | `leader` + `n`   | Go to next diagnostic                |
 | N         | `leader` + `m`   | Go to previous diagnostic            |
-
-## FAQ
-
-- **Why does my configuration look different?**
-
-  I update my neovim configuration daily. I change the themes and keymaps, but I will do my best to write a good documentation.
-
-- **Can I copy code for personal use?**
-
-  Yes of course. That's the goal. Luck 😉
 
 ## License
 
