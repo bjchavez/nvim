@@ -8,7 +8,6 @@ local plugins = {
   require "plugins.autopairs",
   require "plugins.lualine",
   require "plugins.web-devicons",
-  require "plugins.nvterm",
   require "plugins.telescope",
   require "plugins.treesitter",
   require "plugins.lsp",
