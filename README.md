@@ -10,13 +10,14 @@
   <p>
     <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview01.png"/>
     <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview02.png"/>
+    <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview03.png"/>
   </p>
 </div>
 
 ## Current updates
 
 - **Current theme:** [Duskfox](https://github.com/EdenEast/nightfox.nvim)
-- **Current font:** [Hack Nerd Font](https://www.programmingfonts.org/#hack)
+- **Current font:** [FiraCode Nerd Font](https://www.programmingfonts.org/#hack)
 
 ## Requirements
 
