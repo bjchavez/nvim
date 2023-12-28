@@ -16,7 +16,7 @@
 ## Current updates
 
 - **Current theme:** [Duskfox](https://github.com/EdenEast/nightfox.nvim)
-- **Current font:** [CaskaydiaCove Nerd Font](https://www.programmingfonts.org/#cascadia-code)
+- **Current font:** [Hack Nerd Font](https://www.programmingfonts.org/#hack)
 
 ## Requirements
 
@@ -41,20 +41,19 @@ nvim
 
 ## Plugins list
 
-- [telescope](https://github.com/nvim-telescope/telescope.nvim)
-- [treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim)
-- [lualine](https://github.com/nvim-lualine/lualine.nvim)
-- [mini](https://github.com/echasnovski/mini.nvim)
-- [nvterm](https://github.com/NvChad/nvterm)
-- [autopairs](https://github.com/windwp/nvim-autopairs)
-- [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
-- [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
-- [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
-- [web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-- [styler](https://github.com/folke/styler.nvim)
-- [telescope-file-browser](https://github.com/nvim-telescope/telescope-file-browser.nvim)
-- [neodev](https://github.com/folke/neodev.nvim)
+- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [VonHeikemen/lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
+- [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim)
+- [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
+- [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- [folke/styler.nvim](https://github.com/folke/styler.nvim)
+- [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
+- [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
 
 ## Main folders
 ```
@@ -76,7 +75,6 @@ nvim
 │   ├── lsp.lua
 │   ├── lualine.lua
 │   ├── mini.lua
-│   ├── nvtem.lua
 │   ├── autopairs.lua
 │   ├── colorscheme.lua
 │   │   ├── tokyonight.nvim
@@ -143,13 +141,6 @@ nvim
 | N         | `w`              | Go to current working dir            |
 | N         | `t`              | Change current workking dir          |
 | N         | `s`              | Toggle all                           |
-
-### Nvterm
-
-| Mode      | Keymaps          | Description                          |
-| :----:    | :------:         | ----------------------------------   |
-| N         | `Alt` + `i`      | Show terminal                        |
-| T         | `Alt` + `t`      | Hide terminal                        |
 
 ### Markdown Preview
 
