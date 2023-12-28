@@ -13,17 +13,17 @@ end
 
 -- Telescope
 local telescope = require("telescope.builtin")
-map("n", "<leader>ff", telescope.find_files, opts("Telescope", "Find Files"))
-map("n", "<leader>bf", telescope.buffers, opts("Telescope", "Show Buffers"))
-map("n", "<leader>fg", telescope.help_tags, opts("Telescope", "Help Tags"))
-map("n", "<leader>gs", telescope.git_status, opts("Telescope", "Git Status"))
-map("n", "<leader>gc", telescope.git_commits, opts("Telescope", "Git Commits"))
-map("n", "<leader>t", "<cmd>Telescope<cr>", opts("Telescope", "Show Telescope"))
-map("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts("Telescope", "File Browser"))
+map("n", "<leader>ff", telescope.find_files, opts("Telescope", "Find files"))
+map("n", "<leader>bf", telescope.buffers, opts("Telescope", "Show buffers"))
+map("n", "<leader>fg", telescope.help_tags, opts("Telescope", "Help tags"))
+map("n", "<leader>gs", telescope.git_status, opts("Telescope", "Git status"))
+map("n", "<leader>gc", telescope.git_commits, opts("Telescope", "Git commits"))
+map("n", "<leader>t", "<cmd>Telescope<cr>", opts("Telescope", "Show telescope"))
+map("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts("Telescope", "File browser"))
 
 -- Markdown Preview
-map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", opts("Markdown", "Start Markdown Preview"))
-map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", opts("Markdown", "Stop Markdown Preview"))
+map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", opts("Markdown", "Start markdown preview"))
+map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", opts("Markdown", "Stop markdown preview"))
 
 -- LSP
 local lsp_zero = require("lsp-zero")
@@ -36,5 +36,5 @@ lsp_zero.on_attach(function(client, bufnr)
 end)
 
 -- Toggleterm
-map("n", "<A-i>", "<cmd>ToggleTerm direction=float<cr>", opts("ToggleTerm", "Show Float Terminal"))
-map("t", "<A-i>", "<cmd>ToggleTerm direction=float<cr>", opts("ToggleTerm", "Hide Float Terminal"))
+map("n", "<A-i>", "<cmd>ToggleTerm direction=float<cr>", opts("ToggleTerm", "Show float terminal"))
+map("t", "<A-i>", "<cmd>ToggleTerm direction=float<cr>", opts("ToggleTerm", "Hide float terminal"))
