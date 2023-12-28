@@ -54,6 +54,7 @@ nvim
 - [folke/styler.nvim](https://github.com/folke/styler.nvim)
 - [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 - [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
+- [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 
 ## Main folders
 ```
@@ -86,6 +87,7 @@ nvim
 │   ├── styles.lua
 │   ├── telescope-file-browser.lua
 │   ├── neodev.nvim
+│   ├── toggleterm.lua
 │   └── lsp.lua
 └── ...
 ```
@@ -141,6 +143,13 @@ nvim
 | N         | `w`              | Go to current working dir            |
 | N         | `t`              | Change current workking dir          |
 | N         | `s`              | Toggle all                           |
+
+### Toggle Term
+
+| Mode      | Keymap           | Description                          |
+| :----:    | :-----:          | ----------------------------------   |
+| N         | `Alt` + `i`      | Show floating terminal               |
+| T         | `Alt` + `i`      | Hide floating terminal               |
 
 ### Markdown Preview
 
