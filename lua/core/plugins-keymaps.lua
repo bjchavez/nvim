@@ -12,11 +12,6 @@ map("n", "<leader>gc", telescope.git_commits, { desc = "Git Commits" })
 map("n", "<leader>t", "<cmd>Telescope<cr>")
 map("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts)
 
--- NvTerm
-local terminal = require("nvterm.terminal")
-map("n", "<A-i>", function () terminal.toggle('vertical') end, opts)
-map("t", "<A-i>", function () terminal.toggle('vertical') end, opts)
-
 -- Markdown Preview
 map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", opts, { desc = "Start Markdown Preview" })
 map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", opts, { desc = "Stop Markdown Preview" })
