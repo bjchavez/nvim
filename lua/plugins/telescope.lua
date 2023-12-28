@@ -6,7 +6,6 @@ return {
     return require "plugins.configs.telescope-config"
   end,
   config = function(_,opts)
-    local telescope = require "telescope"
-    telescope.setup(opts)
+    require("telescope").setup(opts)
   end
 }
