@@ -18,6 +18,7 @@ map("n", "<leader>bf", telescope.buffers, opts("Telescope", "Show buffers"))
 map("n", "<leader>fg", telescope.help_tags, opts("Telescope", "Help tags"))
 map("n", "<leader>gs", telescope.git_status, opts("Telescope", "Git status"))
 map("n", "<leader>gc", telescope.git_commits, opts("Telescope", "Git commits"))
+map("n", "<leader>km", telescope.keymaps, opts("Telescope", "Show keymaps"))
 map("n", "<leader>t", "<cmd>Telescope<cr>", opts("Telescope", "Show telescope"))
 map("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", opts("Telescope", "File browser"))
 
