@@ -1,4 +1,4 @@
-local theme = require "plugins.utils.lualine-theme"
+local theme = require "plugins.utils.lualine-util"
 
 local config = {
   options = {
