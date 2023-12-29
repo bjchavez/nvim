@@ -4,5 +4,15 @@ return {
   main = "ibl",
   config = function ()
     require("ibl").setup()
+    require("ibl").overwrite {
+      exclude = {
+        filetypes = {
+          "markdown",
+          "text",
+          "yaml",
+          "toml"
+        }
+      }
+    }
   end
 }
