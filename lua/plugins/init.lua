@@ -12,7 +12,6 @@ local plugins = {
   require "plugins.treesitter",
   require "plugins.lsp",
   require "plugins.markdown-preview",
-  require "plugins.styler",
   require "plugins.todo",
   require "plugins.telescope-file-browser",
   require "plugins.neodev",
