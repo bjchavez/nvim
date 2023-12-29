@@ -16,8 +16,8 @@
 
 ## Current updates
 
-- **Current theme:** [Duskfox](https://github.com/EdenEast/nightfox.nvim)
-- **Current font:** [FiraCode Nerd Font](https://www.programmingfonts.org/#hack)
+- **Current theme:** [Tokyonight](https://github.com/folke/tokyonight.nvim)
+- **Current font:** [FiraCode Nerd Font](https://www.programmingfonts.org/#firacode)
 
 ## Requirements
 
