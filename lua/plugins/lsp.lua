@@ -24,11 +24,9 @@ return {
       {'L3MON4D3/LuaSnip'},
     },
     config = function()
-      -- Here is where you configure the autocompletion settings.
       local lsp_zero = require('lsp-zero')
       lsp_zero.extend_cmp()
 
-      -- And you can configure cmp even more, if you want to.
       local cmp = require('cmp')
       local cmp_action = lsp_zero.cmp_action()
 
@@ -58,7 +56,6 @@ return {
       {'williamboman/mason-lspconfig.nvim'},
     },
     config = function()
-      -- This is where all the LSP shenanigans will live
       local lsp_zero = require('lsp-zero')
       lsp_zero.set_sign_icons({
         error = ' ',
@@ -67,7 +64,16 @@ return {
         info = ' '
       })
       lsp_zero.extend_lspconfig()
-      -- LSP keymaps: core/plugins-keymaps/LSP
+
+      lsp_zero.on_attach(function(client, bufnr)
+        local lsp_opts = { buffer = bufnr, remap = false }
+        local map = vim.keymap.set
+        map("n", "gd", vim.lsp.buf.definition, lsp_opts)
+        map("n", "gh", vim.lsp.buf.hover, lsp_opts)
+        map("n", "<leader>n", vim.diagnostic.goto_next, lsp_opts)
+        map("n", "<leader>m", vim.diagnostic.goto_prev, lsp_opts)
+      end)
+
       require('mason-lspconfig').setup({
         ensure_installed = {},
         handlers = {
