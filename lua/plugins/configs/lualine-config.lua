@@ -2,7 +2,7 @@ local theme = require "plugins.utils.lualine-util"
 
 local config = {
   options = {
-    theme = "duskfox",
+    theme = "tokyonight",
     component_separators = { left = "", right = "" },
     section_separators = theme.separators.arrow,
     disabled_filetypes = { "Lazy", "Mason", "Terminal" }
