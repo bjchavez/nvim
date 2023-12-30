@@ -1,5 +1,4 @@
 local map = vim.keymap.set
-vim.g.mapleader = " "
 
 local options = function (title, desc)
   if title ~= nil and desc ~= nil then
@@ -23,8 +22,8 @@ map("n", "<leader>t", "<cmd>Telescope<cr>", options("Telescope", "Show telescope
 map("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", options("Telescope", "File browser"))
 
 -- Markdown Preview
-map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", options("Markdown", "Start markdown preview"))
-map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", options("Markdown", "Stop markdown preview"))
+map("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", options("Markdown Preview", "Start markdown preview"))
+map("n", "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", options("Markdown Preview", "Stop markdown preview"))
 
 -- Toggleterm
 map("n", "<A-i>", "<cmd>ToggleTerm direction=float<cr>", options("ToggleTerm", "Show float terminal"))

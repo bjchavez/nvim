@@ -1,5 +1,4 @@
 local map = vim.keymap.set
-vim.g.mapleader = " "
 
 local options = function (desc)
   if desc ~= nil then
