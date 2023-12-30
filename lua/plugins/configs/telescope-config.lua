@@ -46,7 +46,7 @@ config.defaults = {
   mappings = {
     n = {
       ["<C-q>"] = actions.close,
-      ["<leader>v"] = actions.file_vsplit,
+      ["<leader>v"] = actions.select_vertical,
       ["<C-down>"] = actions.preview_scrolling_down,
       ["<C-up>"] = actions.preview_scrolling_up
     },
