@@ -95,7 +95,7 @@ nvim
 
 ## Keymaps
 
-> **IMPORTANT**: the `space-bar` remains as the `<leader>` key.
+> :memo: **NOTE**: the `space-bar` remains as the `<leader>` key.
 
 **`SOME VIM MODES USED`**: **`[N]ORMAL`** - **`[V]ISUAL`** - **`[I]NSERT`** - **`[T]ERMINAL`**
 
