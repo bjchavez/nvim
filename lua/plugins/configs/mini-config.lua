@@ -3,9 +3,10 @@ local config = {
     options = {
       custom_commentstring = function ()
         return vim.bo.commentstring
-      end
+      end,
+      ignore_blank_line = true
     }
-  }
+  },
 }
 
 return config
