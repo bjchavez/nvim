@@ -1,6 +1,6 @@
 -- NOTE: Feature to automate keymap options table
 local options = function (title, desc)
-  if title ~= nil and desc ~= nil then
+  if title and desc ~= nil then
     return {
       noremap = true,
       silent = true,
