@@ -15,7 +15,6 @@ config.ensure_installed = {
   "python",
   "json",
   "markdown",
-  "svelte",
 }
 
 config.sync_install = false
