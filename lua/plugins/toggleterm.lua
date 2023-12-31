@@ -1,18 +1,10 @@
 return {
   'akinsho/toggleterm.nvim',
   version = "*",
-  config = function ()
-    require("toggleterm").setup({
-      size = function (term)
-        if term.direction == "vertical" then
-          return 65
-        elseif term.direction == "horizontal" then
-          return 18
-        end
-      end,
-      float_opts = {
-        border = "curved"
-      },
-    })
+  opts = function ()
+    return require "plugins.configs.toggleterm-config"
+  end,
+  config = function (_, opts)
+    require("toggleterm").setup(opts)
   end
 }
