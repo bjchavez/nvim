@@ -13,7 +13,6 @@ local plugins = {
   require "plugins.lsp",
   require "plugins.markdown-preview",
   require "plugins.todo",
-  require "plugins.telescope-file-browser",
   require "plugins.neodev",
   require "plugins.toggleterm"
 }
