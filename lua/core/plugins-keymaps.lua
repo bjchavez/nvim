@@ -18,7 +18,6 @@ vim.keymap.set("n", "<leader>gs", telescope.git_status, options("Telescope", "Gi
 vim.keymap.set("n", "<leader>gc", telescope.git_commits, options("Telescope", "Git commits"))
 vim.keymap.set("n", "<leader>km", telescope.keymaps, options("Telescope", "Show keymaps"))
 vim.keymap.set("n", "<leader>t", "<cmd>Telescope<cr>", options("Telescope", "Show telescope"))
-vim.keymap.set("n", "<leader>fb", "<cmd>Telescope file_browser<cr>", options("Telescope", "File browser"))
 
 -- NOTE:  Markdown Preview
 vim.keymap.set("n", "<leader>mp", "<cmd>MarkdownPreview<cr>", options("Markdown Preview", "Start markdown preview"))
