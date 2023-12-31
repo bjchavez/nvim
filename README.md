@@ -51,9 +51,6 @@ nvim
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 - [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
-- [folke/styler.nvim](https://github.com/folke/styler.nvim)
-- [nvim-telescope/telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim)
 - [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
 - [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 
@@ -74,7 +71,6 @@ nvim
 ├── plugins
 │   ├── telescope.lua
 │   ├── treesitter.lua
-│   ├── lsp.lua
 │   ├── lualine.lua
 │   ├── mini.lua
 │   ├── autopairs.lua
@@ -85,8 +81,6 @@ nvim
 │   ├── markdown-preview.lua
 │   ├── indent.lua
 │   ├── web-devicons.lua
-│   ├── styles.lua
-│   ├── telescope-file-browser.lua
 │   ├── neodev.nvim
 │   ├── toggleterm.lua
 │   └── lsp.lua
@@ -132,22 +126,6 @@ nvim
 | N         | `leader` + `v`   | Go to file selection as a vsplit     |
 | N         | `Ctrl` + `down`  | Scroll down in preview window        |
 | N         | `Ctrl` + `up`    | Scroll up in preview window          |
-
-### Telescope File Browser
-
-| Mode      | Keymap           | Description                          |
-| :----:    | :-----:          | ----------------------------------   |
-| N         | `c`              | Create file / folder                 |
-| N         | `r`              | Rename file / folder                 |
-| N         | `m`              | Move file / folder                   |
-| N         | `y`              | Copy file / folder                   |
-| N         | `d`              | Delete file / folder                 |
-| N         | `o`              | Open file / browser                  |
-| N         | `g`              | Go to parent dir                     |
-| N         | `e`              | Go to home dir                       |
-| N         | `w`              | Go to current working dir            |
-| N         | `t`              | Change current workking dir          |
-| N         | `s`              | Toggle all                           |
 
 ### Toggle Term
 
