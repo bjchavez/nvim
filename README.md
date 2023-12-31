@@ -17,12 +17,12 @@
 ## Current updates
 
 - **Current theme:** [Tokyonight](https://github.com/folke/tokyonight.nvim)
-- **Current font:** [FiraCode Nerd Font](https://www.programmingfonts.org/#firacode)
 
 ## Requirements
 
 - [Neovim](https://neovim.io/) >= 0.8.0
-- Install a font from [nerdfonts.com](https://www.nerdfonts.com/)
+- A font from [nerdfonts.com](https://www.nerdfonts.com/)
+> :bulb: Some recommended fonts: **Fira Code, Hack or JetBrains**
 
 ## Installation
 
