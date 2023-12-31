@@ -1,11 +1,11 @@
 return {
   "folke/neodev.nvim",
   opts = {},
+  ft = { "lua", "vim" },
   config = function ()
-    require("neodev").setup({})
-    -- Settings
-    local lspconfig = require("lspconfig")
+    require("neodev").setup()
 
+    local lspconfig = require("lspconfig")
     lspconfig.lua_ls.setup({
       settings = {
         Lua = {
@@ -15,5 +15,6 @@ return {
         }
       }
     })
+
   end
 }
