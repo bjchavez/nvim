@@ -53,6 +53,7 @@ nvim
 - [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
 - [folke/neodev.nvim](https://github.com/folke/neodev.nvim)
 - [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
+- [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
 
 ## Main folders
 ```
