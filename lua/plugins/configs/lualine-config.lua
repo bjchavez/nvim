@@ -15,7 +15,12 @@ local config = {
         icon = { ""}
       }
     },
-    lualine_b = {},
+    lualine_b = {
+      {
+        "branch",
+        icon = { "" }
+      }
+    },
     lualine_c = {
       {
         "diagnostics",
@@ -24,16 +29,11 @@ local config = {
         symbols = { error = " ", warn = " ", info = " ", hint = "⚑ " },
       }
     },
-    lualine_x = {
+    lualine_x = {},
+    lualine_y = {
       {
         "filetype",
         padding = { right = 1, left = 1 }
-      }
-    },
-    lualine_y = {
-      {
-        "branch",
-        icon = { "" }
       }
     },
     lualine_z = {
