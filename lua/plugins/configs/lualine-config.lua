@@ -52,7 +52,8 @@ local config = {
         symbols = {
           alternate_file = "",
           directory = ""
-        }
+        },
+        use_mode_colors = true
       }
     }
   }
