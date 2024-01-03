@@ -22,7 +22,7 @@
 
 - [Neovim](https://neovim.io/) >= 0.8.0
 - A font from [nerdfonts.com](https://www.nerdfonts.com/)
-> :bulb: Some recommended fonts: **Fira Code, Hack or JetBrains**
+> :bulb: Some recommended fonts: **CaskaydiaCove, Fira Code, Hack or JetBrainsMono**
 
 ## Installation
 
