@@ -27,8 +27,8 @@ map("n", "<leader>v", "<cmd>vsplit<cr>", options("Vertical split"))
 map("n", "<leader>h", "<cmd>split<cr>", options("Horizontal split"))
 
 -- Buffers
+map("n", "<Tab>", "<cmd>bnext<cr>", options("Next buffer"))
 map("n", "<C-,>", "<cmd>bprevious<cr>", options("Previous buffer"))
-map("n", "<C-.>", "<cmd>bnext<cr>", options("Next buffer"))
 
 -- Clear Search
 map( { "i", "n" }, "<esc>", "<cmd>noh<cr><esc>", { desc = "Clear Search" })
