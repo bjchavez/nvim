@@ -12,13 +12,13 @@ local config = {
       {
         "mode",
         icons_enable = true,
-        icon = { ""}
+        icon = ""
       }
     },
     lualine_b = {
       {
         "branch",
-        icon = { "" }
+        icon = { "󰘬" }
       }
     },
     lualine_c = {
@@ -45,7 +45,15 @@ local config = {
   },
   tabline = {
     lualine_a = {
-      "filename"
+      {
+        "buffers",
+        show_filename_only = true,
+        mode = 0,
+        symbols = {
+          alternate_file = "",
+          directory = ""
+        }
+      }
     }
   }
 }
