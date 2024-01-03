@@ -9,7 +9,9 @@
   </p>
   <p>
     <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview01.png"/>
+    <hr>
     <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview02.png"/>
+    <hr>
     <img src="https://raw.githubusercontent.com/bjchavez/nvim/main/docs/imgs/preview03.png"/>
   </p>
 </div>
@@ -22,7 +24,7 @@
 
 - [Neovim](https://neovim.io/) >= 0.8.0
 - A font from [nerdfonts.com](https://www.nerdfonts.com/)
-> :bulb: Some recommended fonts: **CaskaydiaCove, Fira Code, Hack or JetBrainsMono**
+> :bulb: Some recommended fonts: **Meslo, Hack, Fira Code or JetBrainsMono**
 
 ## Installation
 
