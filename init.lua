@@ -12,5 +12,5 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("neto")
-require("plugins")
 require("core")
+require("plugins")
