@@ -15,11 +15,7 @@ local config = {
         icon = { ""}
       }
     },
-    lualine_b = {
-      {
-        "filename",
-      }
-    },
+    lualine_b = {},
     lualine_c = {
       {
         "diagnostics",
@@ -45,6 +41,11 @@ local config = {
         "location",
         padding = { left = 1, right = 1 }
       }
+    }
+  },
+  tabline = {
+    lualine_a = {
+      "filename"
     }
   }
 }
