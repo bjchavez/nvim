@@ -18,4 +18,4 @@ local plugins = {
 }
 
 require("lazy").setup(plugins)
-theme("tokyonight-night")
+theme()
