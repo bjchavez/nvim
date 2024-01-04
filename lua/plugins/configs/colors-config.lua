@@ -1,7 +1,7 @@
 local M = {}
 
 M.color_scheme = function (color)
-  color = color or "dracula"
+  color = color or "tokyonight-moon"
   vim.cmd.colorscheme(color)
 end
 
