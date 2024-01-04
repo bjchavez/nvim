@@ -34,7 +34,7 @@ git clone https://github.com/bjchavez/nvim.git ~/.config/nvim
 ```
 - ### Delete preview and .git folders
 ```
-sudo rm -rf ~/.config/nvim/preview
+sudo rm -rf ~/.config/nvim/docs/imgs
 sudo rm -rf ~/.config/nvim/.git
 ```
 - ### Run
