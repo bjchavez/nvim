@@ -4,7 +4,7 @@ local config = {
   options = {
     theme = "tokyonight",
     component_separators = { left = "", right = "" },
-    section_separators = theme.separators.arrow,
+    section_separators = theme.separators.block,
     disabled_filetypes = { "Lazy", "Mason", "Terminal" }
   },
   sections = {
